@@ -12,7 +12,7 @@ using PrimerParcial.Data;
 namespace PrimerParcial.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250930011549_Initial")]
+    [Migration("20250930013251_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
