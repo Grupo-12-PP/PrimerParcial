@@ -10,5 +10,9 @@ namespace PrimerParcial.Data
         { }
 
         public DbSet<Product> Products { get; set; }
+        public DbSet<Event> Events { get; set; }
+
+        public DbSet<SupportTicket> SupportTickets { get; set; }
+
     }
 }
